@@ -17,10 +17,4 @@ EXPOSE 3000
 CMD node main.js
 
 
-#docker build -t interviewcracker8.0 .
-#docker run -d -e  ROOT_URL=http://localhost -e #MONGO_URL=mongodb://cracker1:cracker1@ds119028.mlab.com:19028/cracker_db -p 3000:3000 technicalbird/cracker:9.6.1
-#docker tag technicalbird/cracker:7.0 technicalbird/cracker:7.0
-#docker push technicalbird/cracker:7.0
-#docker pull technicalbird/cracker:7.0
 
-#docker run -d -e  ROOT_URL=http://localhost -e MONGO_URL=mongodb://cracker1:cracker1@ds119028.mlab.com:19028/cracker_db -p 3000:3000 technicalbird/cracker:9.6.1
